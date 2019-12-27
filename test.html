@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./mermaid.js"></script>
+
+</head>
+<body>
+    <div id="readme" class="Box-body readme blob js-code-block-container">
+        <article class="markdown-body entry-content p-3 p-md-6 github-toc" itemprop="text" data-finally-here="true"><h2><a id="user-content-basic-pie-chart" class="anchor" aria-hidden="true" href="#basic-pie-chart"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Basic Pie Chart</h2>
+    <pre lang="mermaid"><code>pie title NETFLIX
+             "Time spent looking for movie" : 90
+             "Time spent watching it" : 10
+    </code></pre>
+    <pre lang="mermaid"><code>pie title NETFLIX
+             "Time spent looking for movie" : 90
+             "Time spent watching it" : 10
+    </code></pre>
+    <pre lang="mermaid"><code>pie title What Voldemort doesn't have?
+             "FRIENDS" : 2
+             "FAMILY" : 3
+             "NOSE" : 45
+    </code></pre>
+    <pre lang="mermaid"><code>pie title What Voldemort doesn't have?
+             "FRIENDS" : 2
+             "FAMILY" : 3
+             "NOSE" : 45
+    </code></pre>
+    <h2><a id="user-content-basic-sequence-diagram" class="anchor" aria-hidden="true" href="#basic-sequence-diagram"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Basic sequence diagram</h2>
+    <pre lang="mermaid"><code>sequenceDiagram
+        Alice -&gt;&gt; Bob: Hello Bob, how are you?
+        Bob--&gt;&gt;John: How about you John?
+        Bob--x Alice: I am good thanks!
+        Bob-x John: I am good thanks!
+        Note right of John: Bob thinks a long&lt;br/&gt;long time, so long&lt;br/&gt;that the text does&lt;br/&gt;not fit on a row.
+    
+        Bob--&gt;Alice: Checking with John...
+        Alice-&gt;John: Yes... John, how are you?
+    </code></pre>
+    <pre lang="mermaid"><code>sequenceDiagram
+        Alice -&gt;&gt; Bob: Hello Bob, how are you?
+        Bob--&gt;&gt;John: How about you John?
+        Bob--x Alice: I am good thanks!
+        Bob-x John: I am good thanks!
+        Note right of John: Bob thinks a long&lt;br/&gt;long time, so long&lt;br/&gt;that the text does&lt;br/&gt;not fit on a row.
+    
+        Bob--&gt;Alice: Checking with John...
+        Alice-&gt;John: Yes... John, how are you?
+    </code></pre>
+    <h2><a id="user-content-basic-flowchart" class="anchor" aria-hidden="true" href="#basic-flowchart"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Basic flowchart</h2>
+    <pre lang="mermaid"><code>graph LR
+        A[Square Rect] -- Link text --&gt; B((Circle))
+        A --&gt; C(Round Rect)
+        B --&gt; D{Rhombus}
+        C --&gt; D
+    </code></pre>
+    <h2><a id="user-content-larger-flowchart-with-some-styling" class="anchor" aria-hidden="true" href="#larger-flowchart-with-some-styling"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Larger flowchart with some styling</h2>
+    <pre lang="mermaid"><code>graph TB
+        sq[Square shape] --&gt; ci((Circle shape))
+    
+        subgraph A
+            od&gt;Odd shape]-- Two line&lt;br/&gt;edge comment --&gt; ro
+            di{Diamond with &lt;br/&gt; line break} -.-&gt; ro(Rounded&lt;br&gt;square&lt;br&gt;shape)
+            di==&gt;ro2(Rounded square shape)
+        end
+    
+        %% Notice that no text in shape are added here instead that is appended further down
+        e --&gt; od3&gt;Really long text with linebreak&lt;br&gt;in an Odd shape]
+    
+        %% Comments after double percent signs
+        e((Inner / circle&lt;br&gt;and some odd &lt;br&gt;special characters)) --&gt; f(,.?!+-*ز)
+    
+        cyr[Cyrillic]--&gt;cyr2((Circle shape Начало));
+    
+         classDef green fill:#9f6,stroke:#333,stroke-width:2px;
+         classDef orange fill:#f96,stroke:#333,stroke-width:4px;
+         class sq,e green
+         class di orange
+    </code></pre>
+    <h2><a id="user-content-loops-alt-and-opt" class="anchor" aria-hidden="true" href="#loops-alt-and-opt"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Loops, alt and opt</h2>
+    <pre lang="mermaid"><code>sequenceDiagram
+        loop Daily query
+            Alice-&gt;&gt;Bob: Hello Bob, how are you?
+            alt is sick
+                Bob-&gt;&gt;Alice: Not so good :(
+            else is well
+                Bob-&gt;&gt;Alice: Feeling fresh like a daisy
+            end
+    
+            opt Extra response
+                Bob-&gt;&gt;Alice: Thanks for asking
+            end
+        end
+    </code></pre>
+    <h2><a id="user-content-message-to-self-in-loop" class="anchor" aria-hidden="true" href="#message-to-self-in-loop"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Message to self in loop</h2>
+    <pre lang="mermaid"><code>sequenceDiagram
+        participant Alice
+        participant Bob
+        Alice-&gt;&gt;John: Hello John, how are you?
+        loop Healthcheck
+            John-&gt;&gt;John: Fight against hypochondria
+        end
+        Note right of John: Rational thoughts&lt;br/&gt;prevail...
+        John--&gt;&gt;Alice: Great!
+        John-&gt;&gt;Bob: How about you?
+        Bob--&gt;&gt;John: Jolly good!
+    </code></pre>
+    </article>
+      </div>
+    
+</body>
+</html>
+<script>
+    (function(){
+        document.querySelectorAll('[lang="mermaid"]').forEach(function(elem,index){
+            var code = document.querySelectorAll("code",elem)[index].textContent;
+            elem.insertAdjacentHTML('afterend', `<div class="mermaid">${code}</div>`)
+            elem.style.display = 'none';
+            // console.log(elem.innerHTML)
+        });
+        mermaid.initialize({
+            theme: 'forest',//default, forest, dark or neutral
+            themeCSS: '.node rect { fill: red; }',
+            logLevel: 3,
+            flowchart: { curve: 'linear' },
+            gantt: { axisFormat: '%m/%d/%Y' },
+            sequence: { actorMargin: 50 },
+            // sequenceDiagram: { actorMargin: 300 } // deprecated
+        });
+    })()
+    
+</script>

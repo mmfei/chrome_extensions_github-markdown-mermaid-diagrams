@@ -1,0 +1,16 @@
+{
+   "content_scripts": [ {
+      "js": [ "mermaid.min.js", "mermaid.content.js" ],
+      "matches": [ "https://github.com/*", "https://gist.github.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Enable `Mermaid diagrams` on github wiki and markdown files",
+   "homepage_url": "https://github.com/Redisrupt/mermaid-diagrams",
+   "icons": {
+      "128": "mermaid-js.png"
+   },
+   "manifest_version": 2,
+   "name": "github-markdown-mermaidjs",
+   "permissions": [ "https://github.com/*", "https://gist.github.com/*" ],
+   "version": "1.0.0"
+}
