@@ -12,5 +12,9 @@
    "manifest_version": 2,
    "name": "github-markdown-mermaidjs",
    "permissions": [ "https://github.com/*", "https://gist.github.com/*" ],
-   "version": "1.0.0"
+   "version": "1.0.0",
+   "browser_action":{  
+      "default_icon":"mermaid-js.png",
+      "default_title": "Enable `Mermaid diagrams` on github wiki and markdown files"  
+   }
 }
